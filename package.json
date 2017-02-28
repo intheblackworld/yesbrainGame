@@ -2,6 +2,7 @@
   "name": "react2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://inthelbackworld.github.io/yesbrainGame/",
   "devDependencies": {
     "eslint": "^3.16.0",
     "eslint-config-airbnb": "^14.1.0",
