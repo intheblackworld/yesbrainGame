@@ -1,0 +1,21 @@
+@import '../../../css/utility';
+
+.loading_text {
+  font-size: 14px;
+  color: #5c4e4c;
+  @include position(50px, 0, 0, 0);
+  position: absolute;
+  margin-top: 70vh;
+  animation: hide-show .3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
+}
+
+.loading_ball {
+  animation: up-down 2s linear infinite both;
+}
+
+.loading {
+  position: absolute;
+  @include position(0, 0, 0, 0);
+  margin: 70vh auto 0;
+  animation: hide-show .3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
+}

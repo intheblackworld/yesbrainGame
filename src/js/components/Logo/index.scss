@@ -1,0 +1,51 @@
+@import '../../../css/utility';
+
+.game_logo {
+  display: block;
+  position: absolute;
+  margin: auto;
+  @include position(0, 0, 0, 0);
+
+}
+
+.game_logo_in {
+  animation: fade-in-right 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+}
+
+.company_name_in {
+  animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.5s both;
+}
+
+.game_slogan {
+  animation: fade-in-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+}
+
+.company_name {
+  color: #e38f71;
+  font-size: 18px;
+  position: absolute;
+  @include position(45px, 0, 0, 75px);
+}
+
+.game_slogan {
+  font-family: 'ArialRoundedMTBold';
+  font-size: 30px;
+  color: #5C4E4C;
+  position: absolute;
+  letter-spacing: 1px;
+  @include position(55px, 0, 0, 10px);
+}
+
+.game_logo_area {
+  text-align: center;
+  z-index: -2;
+  @include position(30vh, 0px, 0px, 0px);
+}
+
+.fade-up {
+  animation: fade-up .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+}
+
+.fade-out {
+  animation: fade-out .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}

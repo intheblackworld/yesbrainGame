@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 import Main from './js/containers/main'
-import './css/index.css';
+import './css/index.css'
 
 ReactDOM.render(
   <Main />,

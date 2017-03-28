@@ -1,0 +1,138 @@
+@keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
+
+@keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1; } }
+
+@keyframes hide-show {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes up-down {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(20px); }
+  100% {
+    transform: translateY(0px); } }
+
+@keyframes fade-up {
+  0% {
+    transform: translateY(0px);
+    opacity: 1; }
+  100% {
+    transform: translateY(-50px);
+    opacity: .5; } }
+
+@keyframes fade-out {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes fade-slide-in {
+  0% {
+    transform: translateX(20px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0px);
+    opacity: 1; } }
+
+.block {
+  display: block; }
+
+.relative {
+  position: relative; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.highlight {
+  color: #e38f71; }
+
+.hide {
+  display: none; }
+
+label {
+  font-size: 19px;
+  color: #4b3f3e;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-family: "PingFangTC-Regular"; }
+
+input {
+  background: rgba(111, 95, 92, 0.8);
+  border: none;
+  margin-bottom: 10px;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  outline: unset; }
+  input:focus {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
+
+.login_button {
+  display: block;
+  color: #e38f71;
+  background: white;
+  border: none;
+  width: 175px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "PingFangTC-Regular";
+  border-radius: 5px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  outline: unset; }
+  .login_button:hover {
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2); }
+
+.signup_button {
+  display: block;
+  color: white;
+  background: #e38f71;
+  border: none;
+  width: 175px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "PingFangTC-Regular";
+  border-radius: 5px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  outline: unset; }
+  .signup_button:hover {
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2); }
+
+.plus_hint {
+  padding: 20px 0;
+  color: #5c4e4c; }
+
+.fade-slide-in {
+  animation: fade-slide-in 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both; }

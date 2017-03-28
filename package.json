@@ -1,5 +1,5 @@
 {
-  "name": "react2",
+  "name": "LifeGame",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://inthelbackworld.github.io/yesbrainGame/",
@@ -9,21 +9,35 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.0",
+    "fs": "0.0.1-security",
+    "gh-pages": "^0.12.0",
+    "gulp-plumber": "^1.1.0",
     "husky": "^0.13.1",
+    "mkdirp": "^0.5.1",
     "node-sass": "^4.5.0",
     "npm-run-all": "^4.0.1",
+    "path": "^0.12.7",
     "react-scripts": "0.9.0",
-    "gh-pages": "^0.12.0"
+    "svg-sprite": "^1.3.6"
   },
   "dependencies": {
     "better-react-spinkit": "^2.0.0-6",
+    "chart.js": "^2.5.0",
     "classnames": "^2.2.5",
+    "d3": "^4.7.3",
+    "history": "^4.6.1",
+    "intro.js": "^2.4.0",
+    "lodash": "^4.17.4",
     "react": "^15.4.2",
+    "react-chartjs-2": "^2.0.5",
     "react-dom": "^15.4.2",
+    "react-modal": "^1.7.3",
     "react-motion": "^0.4.7",
     "react-redux": "^5.0.2",
     "react-router-dom": "next",
+    "react-swipe": "^5.0.6",
     "redux": "^3.6.0",
+    "swipe-js-iso": "^2.0.3",
     "whatwg-fetch": "^2.0.2"
   },
   "scripts": {
@@ -37,6 +51,7 @@
     "precommit": "npm run eslint",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "svgsprite": "gulp svgsprite"
   }
 }

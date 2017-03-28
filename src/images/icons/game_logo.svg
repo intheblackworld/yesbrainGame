@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="147px" height="141px" viewBox="0 0 147 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Game Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Hamburger-Navigation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EnterPage" transform="translate(-107.000000, -186.000000)">
+            <g id="Logo-and-Text" transform="translate(107.000000, 186.000000)">
+                <g id="Game-Logo">
+                    <polyline id="Fill-1" fill="#685856" points="32.6439794 134.289244 81.4679735 105.846356 66.2491366 105.846356 31.2941305 122.358063 32.6439794 134.289244"></polyline>
+                    <polyline id="Fill-2" fill="#4B3F3E" points="81.4679735 105.846356 81.4679735 112.059279 32.6439794 140.502168 32.6439794 133.020953 81.4679735 105.846356"></polyline>
+                    <polygon id="Fill-3" fill="#4B3F3D" points="32.6443847 140.502168 83.0833332 52.5440691 81.4943219 0 0.23747177 140.502168"></polygon>
+                    <polygon id="Fill-4" fill="#675756" points="81.4943219 0 146.228292 112.15132 113.741118 112.15132 81.2539434 55.7281772"></polygon>
+                    <polyline id="Fill-5" fill="#342C2A" points="81.4943219 0 81.4943219 11.3315001 122.043296 70.2510838 81.4943219 0"></polyline>
+                    <polygon id="Fill-6" fill="#342B2A" points="81.5526938 11.3315001 41.0037193 70.2510838 81.5526938 0"></polygon>
+                    <polygon id="Fill-7" fill="#C07054" points="81.2539434 94.6802848 81.2539434 78.6437814 71.9979525 94.6802848"></polygon>
+                    <polyline id="Fill-8" fill="#E38F71" points="81.2539434 78.6437814 81.2539434 94.6802848 90.5103397 94.6802848 81.2539434 78.6437814"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

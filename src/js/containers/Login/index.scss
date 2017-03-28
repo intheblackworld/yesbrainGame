@@ -1,0 +1,76 @@
+@import '../../../css/utility';
+
+
+label {
+  font-size: 19px;
+  color: $label-dark;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-family: $form-font-family;
+}
+
+input {
+  background: $form-brown;
+  border: none;
+  margin-bottom: 10px;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 0px 10px;
+  box-sizing : border-box;
+  outline: unset;
+  &:focus {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.login_button {
+  display: block;
+  color: $form-orange;
+  background: white;
+  border: none;
+  width: 175px;
+  height: 40px;
+  font-size: 20px;
+  font-family: $form-font-family;
+  border-radius: 5px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  outline: unset;
+  &:hover {
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.signup_button {
+  display: block;
+  color: white;
+  background: $form-orange;
+  border: none;
+  width: 175px;
+  height: 40px;
+  font-size: 20px;
+  font-family: $form-font-family;
+  border-radius: 5px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  outline: unset;
+  &:hover {
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.form-group {
+}
+
+.plus_hint {
+  padding: 20px 0;
+  color: $text-dark;
+}
+
+.fade-slide-in {
+  animation: fade-slide-in .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+}

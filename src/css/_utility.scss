@@ -1,0 +1,31 @@
+@import './mixin';
+@import './animation';
+@import './variable';
+
+.block {
+  display: block;
+}
+
+.relative {
+  position: relative;
+}
+
+.text-left {
+  text-align: left
+}
+
+.text-center {
+  text-align: center
+}
+
+.text-right {
+  text-align: right
+}
+
+.highlight {
+  color: $text-highlight;
+}
+
+.hide {
+  display: none;
+}

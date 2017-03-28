@@ -1,10 +1,11 @@
 * {
-  box-sizing: border-box; }
-
+  box-sizing : border-box;
+}
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: white; }
+  background-color: white;
+}
 
 .background {
   width: 100vw;
@@ -12,16 +13,20 @@ body {
   position: absolute;
   z-index: -3;
   padding: 30px;
-  background: #f0e9dc; }
+  background: $background-yellow;
+}
 
 ::placeholder {
   color: white;
   font-family: 'PingFangTC-Regular';
   letter-spacing: 2px;
-  opacity: .8; }
+  opacity: .8;
+}
 
 :placeholder-shown {
-  color: white; }
+  color: white;
+}
 
 hr {
-  color: #5c4e4c; }
+  color: #5c4e4c;
+}
