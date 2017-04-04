@@ -3,7 +3,7 @@
   "name": "YesBrain Life Game",
   "icons": [
     {
-      "src": "src/images/logo.png",
+      "src": "logo.png",
       "sizes": "192x192",
       "type": "image/png"
     }
