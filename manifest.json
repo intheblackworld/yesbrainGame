@@ -1,14 +1,14 @@
 {
   "short_name": "Life Game",
-  "name": "YesBrain Life Game",
+  "name": "",
   "icons": [
     {
       "src": "logo.png",
-      "sizes": "192x192",
+      "sizes": "384x384",
       "type": "image/png"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "https://intheblackworld.github.io/yesbrainGame/index.html",
   "display": "standalone",
   "background_color": "#F0E9DC",
   "theme_color": "#333"
