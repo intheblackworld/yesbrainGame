@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "http://intheblackworld.github.io/yesbrainGame/index.html",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#F0E9DC",
   "theme_color": "#F0E9DC",
