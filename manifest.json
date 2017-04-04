@@ -4,12 +4,18 @@
   "icons": [
     {
       "src": "logo.png",
-      "sizes": "192x192",
+      "sizes": "161x184",
+      "type": "image/png"
+    },
+    {
+      "src": "logo2.png",
+      "sizes": "322x368",
       "type": "image/png"
     }
   ],
-  "start_url": "http://intheblackworld.github.io/yesbrainGame",
+  "start_url": "http://intheblackworld.github.io/yesbrainGame/index.html",
   "display": "standalone",
   "background_color": "#F0E9DC",
-  "theme_color": "#333"
+  "theme_color": "#F0E9DC",
+  "orientation": "portrait"
 }
