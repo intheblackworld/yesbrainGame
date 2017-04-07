@@ -1,13 +1,14 @@
 {
-  "main.css": "static/css/main.6ee5f325.css",
-  "main.css.map": "static/css/main.6ee5f325.css.map",
-  "main.js": "static/js/main.e50be457.js",
-  "main.js.map": "static/js/main.e50be457.js.map",
+  "main.css": "static/css/main.f508d535.css",
+  "main.css.map": "static/css/main.f508d535.css.map",
+  "main.js": "static/js/main.d47e62b2.js",
+  "main.js.map": "static/js/main.d47e62b2.js.map",
   "static/media/game_logo.svg": "static/media/game_logo.c2128f1b.svg",
   "static/media/guide1.svg": "static/media/guide1.2beecd5a.svg",
   "static/media/guide2.svg": "static/media/guide2.c98804dc.svg",
   "static/media/guide3.svg": "static/media/guide3.128935b7.svg",
   "static/media/indigator_active.svg": "static/media/indigator_active.77f4c93b.svg",
   "static/media/indigator_default.svg": "static/media/indigator_default.d39b1bca.svg",
-  "static/media/loading_ball.svg": "static/media/loading_ball.ddbfae0a.svg"
+  "static/media/loading_ball.svg": "static/media/loading_ball.ddbfae0a.svg",
+  "static/media/personality_lion_background.png": "static/media/personality_lion_background.6f70ebaa.png"
 }
